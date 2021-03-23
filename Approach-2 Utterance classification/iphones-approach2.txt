@@ -1,0 +1,60 @@
+Approach: 
+parse the text based on context change. the different contexts can be  product,quantity,price,place, advance.
+for parsing each sentence is classsiied as 
+Further classify the subentities detected from each parsed entity into the two products.
+
+
+example
+
+1 Hi I am Looking for Iphone X and its headphone   :Product +gg
+2 Okay, How many you need                          :quantity+ q
+        
+sub entities detected:
+product: iphone, headphone
+
+3 I would need 100 Iphones;and 40 headphones      :quantity +pa
+4 I want it delivered at koromangla bangaluru     :Place +q
+5 Sure                                            :place +pa
+
+sub entities detected:
+place:kormangla
+quantity  :100,40 classify as iphones, headphones
+
+
+                                          
+6 It will cost you 30k each for iPhones and 1500 for headphones :price +fd
+7 Headphones are costly.                        :price                               
+8 Give it to me for 1000 each                   :price req
+9 1200 is the last price i can give you.    :  price response               
+10 Okay ,                                   :price pf
+ 
+
+sub entities detected:
+price : 30k ,1500,1000 ,1200            
+  classify 30k as iphone and 1500,1000,1200 as headphones cost
+since final msg in thread is of positive feedback,final price is 1200
+
+
+
+ but at-least give me some overall discount                             :discount request
+11 Of you take 30 more headphones i can offer a 10 % off overall        :discount, quantity response 
+12 10 is less , at-least give 15                                        :discount request
+13 Okay,                                                                :discount fb
+
+quantity: 30 more  - classify as headphones
+discount :10,10,15 , identify from the statements that 15 is final value
+
+
+ but only if you order 70                                     quantity   request
+14 Okay                                                        pf
+quantity 70
+
+i will order additional headphones.                              pf
+15 fine,
+
+\negotiation end
+
+ i will send the package after 10 % advance payment             pf+fd
+16 okay                                                                  pf
+	
+advance 10
