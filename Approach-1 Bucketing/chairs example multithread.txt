@@ -1,0 +1,44 @@
+1 Hi, do you sell office tables.
+2 Yes, how many are you looking for
+3 100.
+4 I need chairs also
+5 Okay
+6 What is the price
+7 2K for chairs, 3K for tables
+8 I will also need an advance.
+9 Your price is too high
+10 This is my last quote. At max I can give a 5 % overall discount if you buy 150 each.
+11 No that will not work.
+12 I need 100. You tell me your last rate.
+13 I will offer a 3% then, if its okay then fine , otherwise we can’t have a deal.
+14 Okay, then let it be
+
+
+
+tables :any sentence which has some information particular to tables
+
+1 Hi, do you sell office tables.
+2 Yes, how many are you looking for
+3 100.
+7 2K for chairs, 3K for tables
+
+
+
+
+
+
+chairs   :any sentence which has some information particular to chairs   
+4 I need chairs also
+5 Okay
+7 2K for chairs, 3K for tables
+
+common :  any sentence which has a some  information which applies to both the products  (eg place, overall discount)
+
+6 What is the price
+8 I will also need an advance.
+9 Your price is too high
+10 This is my last quote. At max I can give a 5 % overall discount if you buy 150 each.
+11 No that will not work.
+12 I need 100. You tell me your last rate.
+13 I will offer a 3% then, if its okay then fine , otherwise we can’t have a deal.
+14 Okay, then let it be

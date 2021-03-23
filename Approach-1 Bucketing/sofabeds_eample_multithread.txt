@@ -1,0 +1,38 @@
+1 Hi I want tv units and sofa beds
+2 How many do you need
+3 I want 50 tv units and 30 sofa beds
+4 5K for tv units , small and 14000 for sofa bed
+5 I take 30% in advance and rest after delivery
+6 What about discount.
+7 I can give 10 % overall.
+8 Give separate rates, sofa beds are costly.
+9 Okay , will give 12 % on sofa beds
+10 Okay . Send it to indranagar , bengaluru.
+
+
+tv  units :any sentence which has some information particular to tv units
+
+
+1 Hi I want tv units and sofa beds
+3 I want 50 tv units and 30 sofa beds
+4 5K for tv units , small and 14000 for sofa bed
+
+
+
+
+
+
+sofa bed   :any sentence which has some information particular to sofabed
+1 Hi I want tv units and sofa beds
+3 I want 50 tv units and 30 sofa beds
+4 5K for tv units , small and 14000 for sofa bed
+8 Give separate rates, sofa beds are costly.
+9 Okay , will give 12 % on sofa beds
+
+common :  any sentence which has a some  information which applies to both the products  (eg place, overall discount)
+
+2 How many do you need
+5 I take 30% in advance and rest after delivery
+6 What about discount.
+7 I can give 10 % overall.
+10 Okay . Send it to indranagar , bengaluru.

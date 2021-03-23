@@ -1,0 +1,104 @@
+
+Introduce second product in middle of discussion
+
+buy product1 query -not availiable -bring the second product into discussion -second product also not available
+                                                                             -second product available  -discussion regarding second product
+
+bs01-ss00-bs18-bs16b-ss11b
+                     -ss11a-ss02/ss03/ss01
+
+
+buy product1 query -ask quantity and location - tell quantity and location -stock not available   -ask about second product - not available/second product flow
+                                                                           price of first 1 , second product flow, second product not available, first discussion
+                                                                                                                   second product quantity not enough,first discussion
+                                                                                                                   second product also available , price of 2nd tpn
+
+                                                                           same but ask both prices at the end       - tpn             
+   -ss01-bs06-[x]ss04b -bs18,bs16b-ss11b
+                               -ss11a-ss02/ss03/ss01
+              //-ss05-ss06-bs16a-ss11c-bs18b-ss06a flow
+                              -ss11a+ss02-bs07b-ss04b- ss06aflow   
+                                               -ss06b- two product negotiation//(skipped)
+(done till  here)
+              -ss05+bs16a-ss11b-bs18-ss06a flow
+                              -ss11a+ss02-bs07b-ss04b- ss06aflow
+                                               -ss06m- two product negotiation 
+               -ss05+ss06a flow for 1st product-bs16a-ss11c
+                                                     -ss11a+ss02+bs07b+ss04b-bs18b
+                                                                      ss06bflow-q/r
+                  
+(done)
+    
+    -ss02-bs07a-[x]-ss03-bs08-ss05
+                              
+
+    -ss03-bs08 ss05-ss02-bs07a-[x]
+
+
+bs02-[x]-ss03-bs08-ss05
+                  -ss04c
+bs03-[x]
+ 
+
+
+
+
+two product negotiation flow:
+-overall discount
+-[q]bs12-ss12a -bs14
+           -bs15
+-overall discount based on quantity 
+
+-[r]bs12-ss12b-bs14
+           -bs15
+           bs19-ss08
+               -ss09
+
+-negotiate on price of one quantity
+            
+-bs12b-[Y] -ss07b-bs14
+            -bs15a
+            -bs15b
+       -ss10-bs14
+            -bs15a
+             -bs15b
+
+-bs13b-[Y]
+
+
+
+Asking for two products but only one available/ both not available:
+
+bs01m-ss00m0
+      -ss00m1-bs04-ss05-ss06a flow--ss03-bs08-ss05(-ss04c)
+                        ss04b
+       -ss00m2-bs06-ss05-ss06a flow
+                        ss04b
+      -ss02-bs09m-ss04m-bs17-bs18a-bs11-ss06a flow
+                       -
+
+bs02m-ss00m0
+      -ss00m4-bs18a-bs11-ss06a flow-ss03-bs08-ss05(-ss04c)
+             -bs17
+
+bs03m -ss00m0
+      -ss00m4-bs18a-bs11-ss06a flow
+              -bs17
+ 
+
+
+asking for two products and both available
+
+bs01m-ss01-bs09m-tpnf 
+
+
+bs02m -ss06m-tpnf-ss03-bs08-ss05(-ss04c)
+      ss03-bs08-ss05-ss06m-tpnf
+      
+
+bs03m-ss06m-tpnf
+
+
+
+
+

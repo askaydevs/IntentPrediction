@@ -1,0 +1,47 @@
+1 I want to buy 200 cotton shirts and 5000 white buttons
+2 Okay.
+3 But I only have 150 shirts in stock at the moment.
+4 Okay , will work for now.
+5 What is their cost
+6 150 per shirt and 5 rupees per pair buttons
+7 I will easily get it at 100 per shirt. Can you lower your price.
+8 No.
+9 At max, I can give you some overall discount.
+10 How much
+11 10%
+12 Make it 12
+13 Okay.
+14 What is your location
+15 Marathalli, bengaluru.
+16 Fine. Will send the items.
+
+
+cotton shirts :any sentence which has some information particular to cotton shirts
+
+1 I want to buy 200 cotton shirts and 5000 white buttons
+3 But I only have 150 shirts in stock at the moment.
+4 Okay , will work for now.
+6 150 per shirt and 5 rupees per pair buttons
+7 I will easily get it at 100 per shirt. Can you lower your price.
+8 No.
+
+
+
+
+white buttons   :any sentence which has some information particular to white buttons
+
+1 I want to buy 200 cotton shirts and 5000 white buttons
+6 150 per shirt and 5 rupees per pair buttons
+
+
+common :  any sentence which has a some  information which applies to both the products  (eg place, overall discount)
+2 Okay.
+5 What is their cost
+9 At max, I can give you some overall discount.
+10 How much
+11 10%
+12 Make it 12
+13 Okay.
+14 What is your location
+15 Marathalli, bengaluru.
+16 Fine. Will send the items.

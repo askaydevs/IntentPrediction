@@ -1,0 +1,291 @@
+[
+  {
+    "id": "ss00",
+    "intent": "Respond to buy product query with unavailability",
+    "expressions": [
+      "Sorry, we are presently out of stock",
+      "We are presently out of stock",
+      " We don't have {{product_name1}}s presently, sorry."
+
+    ]
+  },
+
+  {
+    "id": "ss00m0",
+    "intent": "Respond to buy product query with unavailability for both products",
+    "expressions": [
+      "Sorry we don't have both these products" ,
+      "Can you catch up later, today is a holiday ",
+      "Sorry, we are out of stock ",
+      "Please text us back in working hours",
+      "We are out of supply right now",
+      "We dont have  {{product_name1}}s and  {{product_name2}}s presently, sorry."
+      
+    ]
+  },
+
+  {
+    "id": "ss00m1",
+    "intent": "Respond to buy product query with unavailability for one product and quantity question for other product ",
+    "expressions": [
+      "We don't have {{product_name2}}s right now,how many {{product_name1}}s do you want?" ,
+      "We are out of stock of {{product_name2}}s,how many {{product_name1}}s do you want?"
+       
+     
+      
+    ]
+  },
+
+  {
+    "id": "ss00m2",
+    "intent": "Respond to buy product query with unavailability for one product and quantity and location question for other",
+    "expressions": [
+      "We don't have {{product_name2}}s right now,how many {{product_name1}}s do you want and what is your location?" ,
+      "We don't have {{product_name2}}s right now,how many {{product_name1}}s do you want and to where?",
+      "We are out of stock of {{product_name2}}s,how many {{product_name1}}s do you want and to where?",
+      "We are out of stock of {{product_name2}}s,how many {{product_name1}}s do you want and what is your location?"
+     
+    ]
+  },
+
+  {
+    "id": "ss00m3",
+    "intent": "Respond to buy product query with unavailability for one product and location question for other",
+    "expressions": [
+      "We don't have {{product_name2}}s right now, What is your location?" ,
+      "We are out of {{product_name2}}s, Where do you want {{product_name1}}s to be delivered? "
+      
+    ]
+  },
+
+
+ {
+    "id": "ss00m4",
+    "intent": "Respond to buy product query with unavailability for one product ",
+    "expressions": [
+      "We don't have {{product_name2}}s right now, but {{product_name1}}s can be delivered" ,
+      "We are out of {{product_name2}}s, but {{product_name1}}s can be supplied "
+      
+    ]
+  },
+  {
+    "id": "ss01",
+    "intent": "Respond to buy product query with quantity and delivery location question",
+    "expressions": [
+      "What is the quantity and location",
+      "How many pieces are you looking for? and where?"
+
+    ]
+  },
+  {
+    "id": "ss02",
+    "intent": "Respond to buy product query with quantity question",
+    "expressions": [
+      "What is the quantity you need",
+      "How many pieces are you looking for?"
+    ]
+  },
+  {
+    "id": "ss03",
+    "intent": "Respond to buy product query with delivery location question",
+    "expressions": [
+      "What is the location",
+      "where is your location?"
+    ]
+  },
+  {
+    "id": "ss04a",
+    "intent": "Respond to buy quantity/location query with unavailability",
+    "expressions": [
+      "Sorry, we don't have that many, can't take the order",
+      "Sorry, we don't deliver to that location",
+      "Sorry, we can't deliver to that location"
+    ]
+  },
+
+  {
+    "id": "ss04b",
+    "intent": "Respond to buy quantity query with unavailability",
+    "expressions": [
+      "Sorry, we don't have that many of those right now"
+      
+    ]
+  },
+  {
+    "id": "ss04c",
+    "intent": "Respond to buy location query with unavailability",
+    "expressions": [
+       "Sorry, we don't deliver to that location",
+       "Sorry, we can't deliver to that location"
+      
+    ]
+  },
+
+  {
+    "id": "ss04m",
+    "intent": "Respond to buy quantity query with unavailability of one product",
+    "expressions": [
+      "We don't have that many {{product_name2}}s, we can deliver the {{product_name1}}s",
+      "{{product_name1}}s we have, but {{product_name2}}s, we are currently out of stock"
+      
+    ]
+  },
+  {
+    "id": "ss05",
+    "intent": "Respond to buy product with availability",
+    "expressions": [
+      "Sure, I can supply.",
+      "Yes, we can supply"
+    ]
+  },
+  {
+    "id": "ss06a",
+    "intent": "Respond to buy product1 with price/quotation",
+    "expressions": [
+      "It will cost {{seller_product_price1}} per {{product_name1}}",
+      "Our price would be {{seller_product_price1}} per {{product_name1}}",
+      "It would cost {{seller_product_price1}} per {{product_name1}}"
+    ]
+  },
+
+  {
+    "id": "ss06b",
+    "intent": "Respond to buy product2 with price/quotation",
+    "expressions": [
+      "It will cost {{seller_product_price2}} per piece",
+      "It would cost {{seller_product_price2}} each",
+      "It would cost {{seller_product_price2}} per {{product_name2}}s"
+    ]
+  },
+  {
+    "id": "ss06m",
+    "intent": "Respond to buy two products with price/quotation",
+    "expressions": [
+      "It will cost {{seller_product_price1}} each for {{product_name1}}s and {{seller_product_price2}} each for {{product_name2}}s",
+      "{{product_name1}}s cost {{seller_product_price1}} each and {{product_name2}}s cost {{seller_product_price2}} each",
+      "{{product_name1}}s are {{seller_product_price1}} per piece and {{product_name2}}s are {{seller_product_price2}} per piece"
+      
+    ]
+  },
+
+  {
+    "id": "ss07a",
+    "intent": "Respond to price revision with new price/quotation",
+    "expressions": [
+      "Ok, fine I can come down to {{seller_product_revised_price1}}",
+      "My final price would be {{seller_product_revised_price1}}",
+      "{{seller_product_revised_price1}} is the last I can offer",
+      "{{seller_product_revised_price1}} is the last I can settle for"
+    ]
+  },
+
+   {
+    "id": "ss07b",
+    "intent": "Respond to price revision with new price/quotation",
+    "expressions": [
+      "Ok, fine I can come down to {{seller_product_revised_price2}}",
+      "My final price would be {{seller_product_revised_price2}}",
+      "{{seller_product_revised_price2}} is the last I can offer",
+      "{{seller_product_revised_price2}} is the last I can settle for"
+    ]
+  },
+
+
+  {
+    "id": "ss08",
+    "intent": "Respond to price offer with acceptance",
+    "expressions": [
+      "Ok, we have a deal",
+      "Your offer is difficult to work with, but lets go ahead"
+    ]
+  },
+  {
+    "id": "ss09",
+    "intent": "Respond to price offer with rejection",
+    "expressions": [
+      "Sorry, this price offer does not work out",
+      "Sorry, your offer is not acceptable"
+    ]
+  },
+
+  {
+    "id": "ss09b",
+    "intent": "Respond to price offer of second product with rejection",
+    "expressions": [
+      "Sorry, can't decrease price of {{product_name2}} anymore"
+      
+    ]
+  },
+  {
+    "id": "ss10",
+    "intent": "Respond to price revision with no change",
+    "expressions": [
+      "Our price is final",
+      "Our price is non negotiable",
+      "This is our final price",
+      "We are already offering a low price, can't go lesser",
+      "Sorry can't go any lesser",
+      "This is the final price, we can offer"
+    ]
+  },
+
+  {
+    "id": "ss11",
+    "intent": "Respond to first product query",
+    "expressions": [
+      
+      "Sure"
+    ]
+  },
+
+   {
+    "id": "ss11a",
+    "intent": "Respond to second product query",
+    "expressions": [
+      
+      "Yes,",
+      "Yeah,"
+    ]
+  },
+
+  {
+    "id": "ss11b",
+    "intent": "Respond to second product also negatively",
+    "expressions": [ 
+      "Sorry, don't have that either",
+      "Sorry, presently out of stock of that too",
+      "No, we don't supply {{product_name2}}s"
+    ]
+  },
+
+   {
+    "id": "ss11c",
+    "intent": "Respond to only second product  negatively",
+    "expressions": [
+      "Sorry, we don't have that ",
+      "Sorry, presently out of stock of {{product_name2}}s",
+      "No, we don't supply {{product_name2}}s"
+    ]
+  },
+
+
+   {
+    "id": "ss12a",
+    "intent": "Respond to price negotiation with overall discount",
+    "expressions": [
+      "Ok, I can give an overall discount of  {{discount}}%",
+      "There would be a discount of {{discount}}%"
+   
+    ]
+  },
+
+  {
+    "id": "ss12b",
+    "intent": "Respond to price negotiation with overall discount based on quantity of one product",
+    "expressions": [
+      "I can give an overall discount of {{seller_revised_discount}}% if you take {{seller_additional_quantity_product_2}} more {{product_name2}}s",
+      "I can give {{seller_revised_discount}}% discount if you take {{seller_additional_quantity_product_2}} more {{product_name2}}s ",
+      "Take {{seller_additional_quantity_product_2}} more {{product_name2}}s.I'll add a discount of  {{seller_revised_discount}}%"
+    ]
+  }
+]

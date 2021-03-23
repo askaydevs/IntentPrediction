@@ -1,0 +1,342 @@
+[
+  {
+    "id": "bs01",
+    "intent": "Buy product(s)",
+    "expressions": [
+      "Hi, I am looking to buy {{product_name1}}s",
+      "Hi, I am looking for {{product_name1}}s",
+      "Hey {{seller_name}}, Do you supply {{product_name1}}s"
+    ]
+  },
+  {
+    "id": "bs02",
+    "intent": "Buy product(s) with specify quantity",
+    "expressions": [
+      "Hi, I am looking to buy {{product_quantity1}} {{product_name1}}s",
+      "Hi, I am looking for {{product_quantity1}} {{product_name1}}s",
+      "Hey {{seller_name}},Do you supply {{product_name1}}s? I need {{product_quantity1}} {{product_name1}}s"
+    ]
+  },
+  {
+    "id": "bs03",
+    "intent": "Buy product with quantity and delivery location",
+    "expressions": [
+      "Hi, I am looking to buy {{product_quantity1}} {{product_name1}}s, delivered at {{delivery_location}}",
+      "Hi, I am looking for {{product_quantity1}} {{product_name1}}s. Items need to be shipped to {{delivery_location}}",
+      "Hey {{seller_name}},Do you supply {{product_name1}}s? I need {{product_quantity1}} {{product_name1}}s",
+      "Hey {{seller_name}},Do you supply {{product_name1}}s? I need {{product_quantity1}}"    ]
+  },
+
+  {
+    "id": "bs01m",
+    "intent": "Buy two product(s)",
+    "expressions": [
+      "Hi, I am looking to buy {{product_name1}}s and {{product_name2}}s",
+      "Hi, I am looking for {{product_name1}}s and {{product_name2}}s "
+      
+    ]
+  },
+  {
+    "id": "bs02m",
+    "intent": "Buy product(s) with specify quantity",
+    "expressions": [
+      "Hi, I am looking to buy {{product_quantity1}} {{product_name1}}s and {{product_quantity2}} {{product_name2}}s ",
+      "Hi, I am looking for {{product_quantity1}} {{product_name1}}s and {{product_quantity2}} {{product_name2}}s",
+      "Hey {{seller_name}},Do you supply {{product_name1}}s? I need {{product_quantity1}} {{product_name1}}s"
+    ]
+  },
+  {
+    "id": "bs03m",
+    "intent": "Buy product with quantity and delivery location",
+    "expressions": [
+      "Hi, I am looking to buy  {{product_quantity1}} {{product_name1}}s and {{product_quantity2}} {{product_name2}}s, delivered at {{delivery_location}}",
+      "Hi, I am looking for {{product_quantity1}} {{product_name1}}s and {{product_quantity2}} {{product_name2}}s. Items need to be shipped to {{delivery_location}}"
+      
+    ]
+  },
+  {
+    "id": "bs04",
+    "intent": "Provide quantity info",
+    "expressions": [
+      " {{product_quantity1}}",
+      "I need {{product_quantity1}} {{product_name1}}s"
+    ]
+  },
+
+
+ 
+  {
+    "id": "bs06",
+    "intent": "Provide quantity and delivery location info",
+    "expressions": [
+      "I need {{product_quantity1}} pieces  delivered at {{delivery_location}}",
+      "Can you deliver {{product_quantity1}} pieces to {{delivery_location}}?",
+      "I need {{product_quantity1}} {{product_name1}}s and location is {{delivery_location}}"
+    ]
+  },	
+
+
+  {
+    "id": "bs07a",
+    "intent": "Respond to quantity question of first product",
+    "expressions": [
+      "I need {{product_quantity1}} pieces",
+      "{{product_quantity1}}"
+    ]
+  },
+
+  {
+    "id": "bs07b",
+    "intent": "Respond to quantity question of second product",
+    "expressions": [
+      "I need {{product_quantity2}} pieces",
+      "{{product_quantity2}}"
+    ]
+  },
+
+  {
+    "id": "bs08",
+    "intent": "Respond to delivery location question",
+    "expressions": [
+      "{{delivery_location}}",
+      "Can you deliver to {{delivery_location}}?"
+    ]
+  },
+  {
+    "id": "bs09",
+    "intent": "Respond to quantity and delivery location question",
+    "expressions": [
+      "I need {{product_quantity2}} pieces delivered to {{delivery_location}}",
+      "Can you deliver {{product_quantity2}} to {{delivery_location}}?"
+    ]
+  },
+  {
+    "id": "bs09m",
+    "intent": "Respond to quantity and delivery location question",
+    "expressions": [
+      "I need {{product_quantity1}} {{product_name1}}s and {{product_quantity2}} {{product_name2}}s delivered to {{delivery_location}}",
+      "Can you deliver  {{product_quantity1}} {{product_name1}}s and {{product_quantity2}} {{product_name2}}s to {{delivery_location}}?"
+    ]
+  },
+  {
+    "id": "bs10",
+    "intent": "Respond to quotation/price",
+    "expressions": [
+      "I think price is A bit high, Can you reconsider price?",
+      "I think price is too much",
+      "Can i get an overall discount?"
+    ]
+  },
+  {
+    "id": "bs11",
+    "intent": "Ask for price/quotation",
+    "expressions": [
+      "Can you give me a quotation",
+      "What is the cost?"
+    ]
+  },
+  {
+    "id": "bs12",
+    "intent": "Ask for revised price/quotation",
+    "expressions": [
+      "I think price is on higher side, can you reconsider price",
+      "Is that your final price?, I expect some discount",
+      "Can you reduce the price? ",
+      "Would there be any discount?",
+      "Please reconsider the final price, It's a bit too high "
+    ]
+  },
+
+  {
+    "id": "bs12a",
+    "intent": "Ask for revised price/quotation for product 1",
+    "expressions": [
+      "I think price of {{product_name1}}s is a bit high, can you reconsider price",
+      "Can you reduce the price of {{product_name1}}s? ",
+      "Would there be any discount on {{product_name1}}s?",
+      "Please reconsider the final price of {{product_name1}}s, It's a bit too high "
+    ]
+  },
+
+  {
+    "id": "bs12b",
+    "intent": "Ask for revised price/quotation for product 2",
+    "expressions": [
+      "I think price of {{product_name2}}s is on higher side, can you reconsider price",
+      "Can you reduce the price of {{product_name2}}s? ",
+      "Would there be any discount on {{product_name2}}s?",
+      "Please reconsider the final price of {{product_name2}}s, It's a bit too high "
+    ]
+  },
+
+  
+   {
+    "id": "bs13a",
+    "intent": "Respond to price/quotation offer with expected price/quotation of product1",
+    "expressions": [
+    "I think price of {{product_name1}} is on higher side, can you make it {{buyer_product_price1}}",
+  
+      "Can I get {{product_name1}}s at {{buyer_product_price1}} per piece? ",
+      "Can we make it {{buyer_product_price1}} per  {{product_name1}}?",
+      "Can we agree on {{buyer_product_price1}} for {{product_name1}}s ",
+      "Is {{buyer_product_price1}} okay for {{product_name1}}s?",
+      "Can we please make it {{buyer_product_price1}} for {{product_name1}}s?"
+    ]
+  },
+
+   {
+    "id": "bs13b",
+    "intent": "Respond to price/quotation offer with expected price/quotation of product2 ",
+    "expressions": [
+      "I think price of {{product_name2}} is on higher side, can you make it {{buyer_product_price2}}",
+  
+      
+      "Can we make it {{buyer_product_price2}} per piece for {{product_name2}}s?",
+      "Can we agree on {{buyer_product_price2}} per {{product_name2}}? ",
+      "Is {{buyer_product_price2}} okay for {{product_name2}}s?",
+      "Can we please make it {{buyer_product_price2}} for {{product_name2}}s?"
+    ]
+  },
+  {
+    "id": "bs14",
+    "intent": "Accept quotation/price",
+    "expressions": [
+      "We have a deal",
+      "Okay, Lets finalize on this",
+      "Fine,let's go ahead with the order"
+    ]
+  },
+  {
+    "id": "bs15",
+    "intent": "Reject quotation/price for 1 product",
+    "expressions": [
+      "I don't think this price point works for me, thanks for your time",
+      "The price seems a bit too high, thank you"
+    ]
+  },
+
+  {
+    "id": "bs15a",
+    "intent": "Reject quotation/price  for one product and go forward with other ",
+    "expressions": [
+      "I don't think this price point works for me, let's go ahead with {{product_name1}}s only",
+      "Price is too high, I will only buy {{product_name1}}s",
+      "The price seems a bit too high, I will go ahead with {{product_name1}}s only"
+    ]
+  },
+
+   {
+    "id": "bs15b",
+    "intent": "Reject quotation/price  for both products",
+    "expressions": [
+      "I don't think this price point works for me , let's drop the deal",
+      "Price is too high, Thanks for your time",
+      "The price seems a bit too high, let's drop the deal."
+    ]
+  },
+
+
+  {
+    "id": "bs16a",
+    "intent": "Bringing the Second product into discussion",
+    "expressions": [
+      "Do you also happen to have {{product_name2}}s?",
+      "Do you also happen to supply {{product_name2}}s?",
+      "And, Do you  have {{product_name2}}s?",
+      "And, Do you  supply {{product_name2}}s?",
+      "Do you also have {{product_name2}}s"
+      
+      
+    ]
+  },
+
+  {
+    "id": "bs16b",
+    "intent": "Bringing in the Second product after rejection of first one",
+    "expressions": [
+      "Do you happen to have {{product_name2}}s?",
+      "Do you happen to supply {{product_name2}}s?",
+      "Do you have {{product_name2}}s?",
+      "Do you supply {{product_name2}}s?",
+      " I am also looking for {{product_name2}}s",
+      "Do you have {{product_name2}}s",
+      "What about {{product_name2}}s?Are they available?"
+      
+    ]
+  },
+
+
+  {
+    "id": "bs16c",
+    "intent": "Respond positively and Bringing in the Second product into discussion",
+    "expressions": [
+     "Fine and do you also happen to have {{product_name2}}s?",
+      "Okay and Do you also happen to supply {{product_name2}}s?",
+      "Fine, and, do you have {{product_name2}}s?",
+      "Fine and I am also looking for {{product_name2}}s",
+      "Fine,do you also have {{product_name2}}s"
+      
+      
+    ]
+  },
+
+  {
+    "id": "bs17",
+    "intent": "Respond to unavailability of one product with rejection",
+    "expressions": [
+
+      "Okay I want to buy everything together, will check some other dealer.Thank you"
+      
+    ]
+  },
+  {
+    "id": "bs18a",
+    "intent": "Respond to unavailability of one product with acceptance",
+    "expressions": [
+
+      "Oh okay",
+
+
+      "Oh",
+      "fine",
+      "Oh,fine"
+      
+    ]
+  },
+
+  {
+    "id": "bs18b",
+    "intent": "Respond to unavailability of one product at the end of conversation",
+    "expressions": [
+
+      "Oh okay, let's go ahead with {{product_name1}}s then",
+      "Oh,let's go ahead with {{product_name1}}s then",
+      "Fine,let's go ahead with {{product_name1}}s then",
+      "Oh,fine,let's go ahead with {{product_name1}}s then"
+      
+    ]
+  },
+
+  {
+    "id": "bs18c",
+    "intent": "Go ahead with product 1 because product 2 is costly",
+    "expressions": [
+
+      "Oh okay, let's go ahead with {{product_name1}}s then,{{product_name2}}s are too costly",
+      "Oh,let's go ahead with {{product_name1}}s then,{{product_name2}}s are too costly",
+      "Fine,let's go ahead with {{product_name1}}s then,{{product_name2}}s are too costly",
+      "Oh,fine,let's go ahead with {{product_name1}}s then,{{product_name2}}s are too costly"
+      
+    ]
+  },
+
+  {
+    "id": "bs19",
+    "intent": "Respond to revised discount with new discount ",
+    "expressions": [
+
+      "Ok, but can you make it {{buyer_revised_discount}}",
+      "Ok, I'll take {{seller_additional_quantity_product_2}} more {{product_name2}}s, but make the discount {{buyer_revised_discount}}"      
+    ]
+  }
+]

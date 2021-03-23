@@ -1,0 +1,1018 @@
+[
+  {
+    "node_id": "start",
+    "step_id": "start",
+    "outgoing_nodes": [
+      "c01_r01",
+      "c01_r02",
+      "c01_r03",
+      "c01_r04",
+      "c01_r05",
+      "c01_r06"
+    ]
+  },
+
+  {
+    "node_id": "c01_r01",
+    "step_id": "bs01",
+    "outgoing_nodes": [
+      "c02_r01",
+      "c02_r02",
+      "c02_r03",
+      "c02_r04"
+    ]
+  },
+
+  {
+    "node_id": "c02_r01",
+    "step_id": "ss00",
+    "outgoing_nodes": [
+      "c03_r01"
+    ]
+  },
+
+  {
+    "node_id": "c03_r01",
+    "step_id": "bs18a",
+    "outgoing_nodes": [
+      "c04_r01"
+    ]
+  },
+
+  {
+    "node_id": "c04_r01",
+    "step_id": "bs16b",
+    "outgoing_nodes": [
+      "c05_r01",
+      "c05_r02"
+    ]
+  },
+
+  {
+    "node_id": "c05_r01",
+    "step_id": "ss11b",
+    "outgoing_nodes": [
+      "end"
+    ]
+  },
+
+  {
+    "node_id": "c05_r02",
+    "step_id": "ss11a",
+    "outgoing_nodes": [
+      "c06_r01",
+      "c06_r02",
+      "c06_r03"      
+    ]
+  },
+
+  {
+    "node_id": "c06_r01",
+    "step_id": "ss01",
+    "outgoing_nodes": [
+      "c07_r01"
+    ]
+  },
+
+
+  {
+    "node_id": "c07_r01",
+    "step_id": "bs09",
+    "outgoing_nodes": [
+      "c08_r01",
+      "c08_r02"
+    ]
+  },
+
+
+  {
+    "node_id": "c08_r01",
+    "step_id": "ss04a",
+    "outgoing_nodes": [
+      "end"
+    ]
+  },
+
+
+  {
+    "node_id": "c08_r02",
+    "step_id": "ss05",
+    "outgoing_nodes": [
+      "c09_r01" 
+    ]
+  },
+
+  {
+    "node_id": "c09_r01",
+    "step_id": "bs11",
+    "outgoing_nodes": [
+      "c10_r01"
+    ]
+  },
+
+  {
+    "node_id": "c10_r01",
+    "step_id": "ss06b",
+    "outgoing_nodes": [
+      "c11_r01",
+      "c11_r02",
+      "c11_r03",
+      "c11_r04"
+    ]
+  },
+
+  {
+    "node_id": "c11_r01",
+    "step_id": "bs12",
+    "outgoing_nodes": [
+      "c12_r01",
+      "c12_r02"
+    ]
+  },
+  {
+    "node_id": "c11_r02",
+    "step_id": "bs13b",
+    "outgoing_nodes": [
+      "c12_r03",
+      "c12_r04"
+    ]
+  },
+  {
+    "node_id": "c11_r03",
+    "step_id": "bs14",
+    "outgoing_nodes": [
+      "end"
+    ]
+  },
+  {
+    "node_id": "c11_r04",
+    "step_id": "bs15",
+    "outgoing_nodes": [
+      "end"
+    ]
+  },
+  {
+    "node_id": "c12_r01",
+    "step_id": "ss07b",
+    "outgoing_nodes": [
+      "c11_r03",
+      "c11_r04"
+    ]
+  },
+  {
+    "node_id": "c12_r02",
+    "step_id": "ss10",
+    "outgoing_nodes": [
+       "c11_r03",
+       "c11_r04"
+    ]
+  },
+  {
+    "node_id": "c12_r03",
+    "step_id": "ss08",
+    "outgoing_nodes": [
+      "end"
+    ]
+  },
+  {
+    "node_id": "c12_r04",
+    "step_id": "ss09",
+    "outgoing_nodes": [
+      "end"
+    ]
+  },
+  
+
+  {
+    "node_id": "c06_r02",
+    "step_id": "ss02",
+    "outgoing_nodes": [
+      "c07_r02"
+    ]
+  },
+
+ 
+
+  {
+    "node_id": "c07_r02",
+    "step_id": "bs07b",
+    "outgoing_nodes": [
+      "c08_r03",
+      "c08_r04"
+    ]
+  },
+
+  {
+    "node_id": "c08_r03",
+    "step_id": "ss04b",
+    "outgoing_nodes": [
+      "end"
+    ]
+  },
+
+  {
+    "node_id": "c08_r04",
+    "step_id": "ss03",
+    "outgoing_nodes": [
+      "c09_r02"
+     
+    ]
+  },
+
+  {
+    "node_id": "c09_r02",
+    "step_id": "bs08",
+    "outgoing_nodes": [
+      "c10_r02",
+      "c08_r02"
+    ]
+  },
+
+  {
+    "node_id": "c10_r02",
+    "step_id": "ss04c",
+    "outgoing_nodes": [
+      "end"
+    ]
+  },
+
+  {
+    "node_id": "c06_r03",
+    "step_id": "ss03",
+    "outgoing_nodes": [
+      "c07_r03"
+    ]
+  },
+
+  {
+    "node_id": "c07_r03",
+    "step_id": "bs08",
+    "outgoing_nodes": [
+      "c08_r05",
+      "c10_r02"
+    ]
+  },
+
+  {
+    "node_id": "c08_r05",
+    "step_id": "ss02",
+    "outgoing_nodes": [
+      "c09_r03"
+    ]
+  },
+
+  {
+    "node_id": "c09_r03",
+    "step_id": "bs07b",
+    "outgoing_nodes": [
+      "c08_r03",
+      "c08_r02"
+    ]
+  },
+
+  {
+    "node_id": "c02_r02",
+    "step_id": "ss01",
+    "outgoing_nodes": [
+      "c03_r02"
+    ]
+  },
+
+  {
+    "node_id": "c03_r02",
+    "step_id": "bs06",
+    "outgoing_nodes": [
+      "c04_r02",
+      "c04_r03",
+      "c04_r04"
+    ]
+  },
+
+  {
+    "node_id": "c04_r02",
+    "step_id": "ss04b",
+    "outgoing_nodes": [
+      "c03_r01"
+    ]
+  },
+
+  {
+    "node_id": "c04_r03",
+    "step_id": "ss05",
+    "outgoing_nodes": [
+      "c05_r03"
+    ]
+  },
+
+  {
+    "node_id": "c05_r03",
+    "step_id": "bs16a",
+    "outgoing_nodes": [
+      "c06_r04",
+      "c06_r05"
+    ]
+  },
+
+  {
+    "node_id": "c06_r04",
+    "step_id": "ss11c",
+    "outgoing_nodes": [
+      
+      "c07_r04"
+    ]
+  },
+
+  {
+    "node_id": "c07_r04",
+    "step_id": "bs18b",
+    "outgoing_nodes": [
+      
+      "c08_r06"
+    ]
+  },
+
+
+  {
+    "node_id": "c08_r06",
+    "step_id": "ss06a",
+    "outgoing_nodes": [
+      
+      "c09_r04",
+      "c09_r05",
+      "c09_r06",
+      "c09_r07"
+    ]
+  },
+
+
+  {
+    "node_id": "c09_r04",
+    "step_id": "bs12",
+    "outgoing_nodes": [
+      "c10_r020",
+      "c10_r03"
+    ]
+  },
+
+  {
+    "node_id": "c09_r05",
+    "step_id": "bs13a",
+    "outgoing_nodes": [
+      "c10_r04",
+      "c10_r05"
+    ]
+  },
+  {
+    "node_id": "c09_r06",
+    "step_id": "bs14",
+    "outgoing_nodes": [
+      "end"
+    ]
+  },
+  {
+    "node_id": "c09_r07",
+    "step_id": "bs15",
+    "outgoing_nodes": [
+      "end"
+    ]
+  },
+  {
+    "node_id": "c10_r020",
+    "step_id": "ss07a",
+    "outgoing_nodes": [
+      "c09_r06",
+      "c09_r07"
+    ]
+  },
+  {
+    "node_id": "c10_r03",
+    "step_id": "ss10",
+    "outgoing_nodes": [
+       "c09_r06",
+       "c09_r07"
+    ]
+  },
+  {
+    "node_id": "c10_r04",
+    "step_id": "ss08",
+    "outgoing_nodes": [
+      "end"
+    ]
+  },
+  {
+    "node_id": "c10_r05",
+    "step_id": "ss09",
+    "outgoing_nodes": [
+      "end"
+    ]
+  },
+
+  {
+    "node_id": "c06_r05",
+    "step_id": "ss11a",
+    "outgoing_nodes": [
+      "c07_r05"
+    ]
+  },
+
+  {
+    "node_id": "c07_r05",
+    "step_id": "ss02",
+    "outgoing_nodes": [
+      "c08_r07"
+    ]
+  },
+
+
+  {
+    "node_id": "c08_r07",
+    "step_id": "bs07b",
+    "outgoing_nodes": [
+      "c09_r08",
+      "c09_r09"
+    ]
+  },
+
+  {
+    "node_id": "c09_r08",
+    "step_id": "ss04b",
+    "outgoing_nodes": [
+      "c08_r06"
+    ]
+  },
+
+  {
+    "node_id": "c09_r09",
+    "step_id": "ss06m",
+    "outgoing_nodes": [
+      "c10_r06",
+      "c10_r07",
+      "c10_r08"
+    ]
+  },
+
+  {
+    "node_id": "c10_r06",
+    "step_id": "bs12",
+    "outgoing_nodes": [
+      "c11_r05",
+      "c11_r06"
+    ]
+  },
+
+  {
+    "node_id": "c11_r05",
+    "step_id": "ss12a",
+    "outgoing_nodes": [
+      "c09_r06",
+      "c09_r07"
+    ]
+  },
+
+
+  {
+    "node_id": "c11_r06",
+    "step_id": "ss12b",
+    "outgoing_nodes": [
+      "c09_r06",
+      "c09_r07",
+      "c12_r05"
+    ]
+  },
+
+  {
+    "node_id": "c12_r05",
+    "step_id": "bs19",
+    "outgoing_nodes": [
+      "c10_r04",
+      "c10_r05"
+    ]
+  },
+
+
+  {
+    "node_id": "c10_r07",
+    "step_id": "bs12b",
+    "outgoing_nodes": [
+      "c11_r07",
+      "c11_r08" 
+    ]
+  },
+
+  {
+    "node_id": "c11_r07",
+    "step_id": "ss07b",
+    "outgoing_nodes": [
+      "c09_r06",
+      "c12_r06",
+      "c12_r07"
+    ]
+  },
+
+  {
+    "node_id": "c12_r06",
+    "step_id": "bs15a",
+    "outgoing_nodes": [
+      "end"
+    ]
+  },
+
+  {
+    "node_id": "c12_r07",
+    "step_id": "bs15b",
+    "outgoing_nodes": [
+      "end"
+    ]
+  },
+
+  {
+    "node_id": "c11_r08",
+    "step_id": "ss10",
+    "outgoing_nodes": [
+      "c09_r06",
+      "c12_r06",
+      "c12_r07"
+    ]
+  },
+
+  {
+    "node_id": "c10_r08",
+    "step_id": "bs13b",
+    "outgoing_nodes": [
+      "c11_r07",
+      "c11_r08"
+    ]
+  },
+
+  {
+    "node_id": "c04_r04",
+    "step_id": "ss05",
+    "outgoing_nodes": [
+      "c05_r04"
+    ]
+  },
+
+  {
+    "node_id": "c05_r04",
+    "step_id": "ss06a",
+    "outgoing_nodes": [
+      "c06_r06",
+      "c06_r07",
+      "c06_r08"
+    ]
+  },
+
+  {
+    "node_id": "c06_r06",
+    "step_id": "bs16c",
+    "outgoing_nodes": [
+      "c07_r06",
+      "c07_r07"
+    ]
+  },
+
+  {
+    "node_id": "c07_r06",
+    "step_id": "ss11c",
+    "outgoing_nodes": [
+      "c08_r08"
+    ]
+  },
+
+  {
+    "node_id": "c08_r08",
+    "step_id": "bs18b",
+    "outgoing_nodes": [
+      "end"
+    ]
+  },
+
+  {
+    "node_id": "c07_r07",
+    "step_id": "ss11a",
+    "outgoing_nodes": [
+      "c08_r09"
+    ]
+  },
+
+  {
+    "node_id": "c08_r09",
+    "step_id": "ss02",
+    "outgoing_nodes": [
+      "c09_r10"
+    ]
+  },
+
+  {
+    "node_id": "c09_r10",
+    "step_id": "bs07b",
+    "outgoing_nodes": [
+      "c10_r09",
+      "c11_r09"
+    ]
+  },
+
+  {
+    "node_id": "c10_r09",
+    "step_id": "ss04b",
+    "outgoing_nodes": [
+      "c08_r08"
+      
+    ]
+  },
+
+
+  {
+    "node_id": "c11_r09",
+    "step_id": "ss06b",
+    "outgoing_nodes": [
+      
+      "c11_r03",
+      "c12_r08",
+      "c12_r09"
+    ]
+  },
+
+  {
+    "node_id": "c12_r08",
+    "step_id": "bs18c",
+    "outgoing_nodes": [
+      "end"
+    ]
+  },
+
+  {
+    "node_id": "c12_r09",
+    "step_id": "bs13b",
+    "outgoing_nodes": [
+      "c12_r03",
+      "c13_r01"
+    ]
+  },
+
+  {
+    "node_id": "c13_r01",
+    "step_id": "ss09b",
+    "outgoing_nodes": [
+      "c08_r08"
+    ]
+  },
+
+  {
+    "node_id": "c06_r07",
+    "step_id": "bs12",
+    "outgoing_nodes": [
+      "c07_r08",
+      "c07_r09"
+    ]
+  },
+
+  {
+    "node_id": "c07_r08",
+    "step_id": "ss07a",
+    "outgoing_nodes": [
+      "c06_r06"
+    ]
+  },
+
+  {
+    "node_id": "c07_r09",
+    "step_id": "ss10",
+    "outgoing_nodes": [
+      "c06_r06"
+    ]
+  },
+
+  {
+    "node_id": "c06_r08",
+    "step_id": "bs13a",
+    "outgoing_nodes": [
+      "c07_r10",
+      "c06_r06"
+    ]
+  },
+
+  {
+    "node_id": "c07_r10",
+    "step_id": "ss08",
+    "outgoing_nodes": [
+      "end"
+    ]
+  },
+
+  {
+    "node_id": "c02_r03",
+    "step_id": "ss02",
+    "outgoing_nodes": [
+      "c03_r03"
+    ]
+  },
+
+  {
+    "node_id": "c03_r03",
+    "step_id": "bs07a",
+    "outgoing_nodes": [
+      "c04_r02",
+      "c04_r03",
+      "c04_r04"
+    ]
+  },
+
+  {
+    "node_id": "c02_r04",
+    "step_id": "ss03",
+
+    "outgoing_nodes": [
+      "c03_r04"
+    ]
+  },
+
+  {
+    "node_id": "c03_r04",
+    "step_id": "bs08",
+    "outgoing_nodes": [
+      "c10_r02",
+      "c02_r03"
+    ]
+  },
+
+
+  {
+    "node_id": "c01_r02",
+    "step_id": "bs02",
+    "outgoing_nodes": [
+      "c04_r02",
+      "c04_r03",
+      "c04_r04"
+    ]
+  },
+
+  {
+    "node_id": "c01_r03",
+    "step_id": "bs03",
+    "outgoing_nodes": [
+      "c04_r02",
+      "c04_r03",
+      "c04_r04",
+      "c10_r02"
+    ]
+  },
+
+  {
+    "node_id": "c01_r04",
+    "step_id": "bs01m",
+    "outgoing_nodes": [
+      "c02_r05",
+      "c02_r06",
+      "c02_r07",
+      "c02_r08",
+      "c02_r09"
+    ]
+  },
+
+  {
+    "node_id": "c02_r05",
+    "step_id": "ss01",
+    "outgoing_nodes": [
+      "c03_r05"
+    ]
+  },
+
+  {
+    "node_id": "c03_r05",
+    "step_id": "bs09m",
+    "outgoing_nodes": [
+      "c09_r09"
+      
+      
+    ]
+  },
+
+  {
+    "node_id": "c02_r06",
+    "step_id": "ss00m0",
+    "outgoing_nodes": [
+      "end"
+    ]
+  },
+
+  {
+    "node_id": "c02_r07",
+    "step_id": "ss00m1",
+    "outgoing_nodes": [
+      "c03_r06",
+      "c03_r07" 
+    ]
+  },
+
+  {
+    "node_id": "c03_r06",
+    "step_id": "bs17",
+    "outgoing_nodes": [
+      "end"
+    ]
+  },
+
+  {
+    "node_id": "c03_r07",
+    "step_id": "bs18a",
+    "outgoing_nodes": [
+      "c04_r050"
+    ]
+  },
+
+  {
+    "node_id": "c04_r050",
+    "step_id": "bs04",
+    "outgoing_nodes": [
+      "c05_r05"
+    ]
+  },
+
+  {
+    "node_id": "c05_r05",
+    "step_id": "ss05",
+    "outgoing_nodes": [
+      "c08_r06"
+    ]
+  },
+
+  {
+    "node_id": "c02_r08",
+    "step_id": "ss00m2",
+    "outgoing_nodes": [
+      "c03_r08"
+    ]
+  },
+
+  {
+    "node_id": "c03_r08",
+    "step_id": "bs06",
+    "outgoing_nodes": [
+      "c04_r06",
+      "c04_r07",
+      "c04_r08"
+    ]
+  },
+
+  {
+    "node_id": "c04_r06",
+    "step_id": "ss04c",
+    "outgoing_nodes": [
+      "end"
+    ]
+  },
+
+  {
+    "node_id": "c04_r07",
+    "step_id": "ss04b",
+    "outgoing_nodes": [
+      "end"
+    ]
+  },
+
+  {
+    "node_id": "c04_r08",
+    "step_id": "ss04c",
+    "outgoing_nodes": [
+      "c05_r05"
+    ]
+  },
+
+  {
+    "node_id": "c02_r09",
+    "step_id": "ss02",
+    "outgoing_nodes": [
+      "c03_r09"
+    ]
+  },
+
+  {
+    "node_id": "c03_r09",
+    "step_id": "bs09m",
+    "outgoing_nodes": [
+      "c04_r09"
+    ]
+  },
+
+  {
+    "node_id": "c04_r09",
+    "step_id": "ss04m",
+    "outgoing_nodes": [
+      "c03_r06",
+      "c05_r06"
+    ]
+  },
+
+  {
+    "node_id": "c05_r06",
+    "step_id": "bs18a",
+    "outgoing_nodes": [
+      "c06_r09"
+    ]
+  },
+
+  {
+    "node_id": "c06_r09",
+    "step_id": "bs11",
+    "outgoing_nodes": [
+      "c08_r06"
+    ]
+  },
+
+  {
+    "node_id": "c01_r05",
+    "step_id": "bs02m",
+    "outgoing_nodes": [
+      "c02_r06",
+      "c09_r09",
+      "c04_r09",
+      "c02_r10"
+    ]
+  },
+
+  {
+    "node_id": "c02_r10",
+    "step_id": "ss03",
+    "outgoing_nodes": [
+      "c03_r10"
+    ]
+  },
+
+  {
+    "node_id": "c03_r10",
+    "step_id": "bs08",
+    "outgoing_nodes": [
+      "c10_r02",
+      "c05_r05"
+    ]
+  },
+
+  {
+    "node_id": "c01_r06",
+    "step_id": "bs03m",
+    "outgoing_nodes": [
+      "c10_r02",
+      "c02_r06",
+      "c09_r09",
+      "c04_r09"
+    ]
+  },
+
+  {
+    "node_id": "end",
+    "step_id": "end",
+    "outgoing_nodes": []
+  }
+
+]
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

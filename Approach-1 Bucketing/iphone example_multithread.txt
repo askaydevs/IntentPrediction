@@ -1,0 +1,106 @@
+1 Hi I am Looking for Iphone X and its headphone   gg
+2 Okay, How many you need                          q                                       m                             
+3 I would need 100 Iphones and 40 headphones       pa
+4 I want it delivered at koromangla bangaluru      q
+5 Sure                                             pf
+6 It will cost you 30k each for iPhones and 1500 for headphones         fd
+7 Headphones are costly.                                                 
+8 Give it to me for 1000 each                                             
+9 1200 is the last price i can give you.                                 pa/proposal    
+10 Okay , but at-least give me some overall discount                    pf+ fq
+11 Of you take 30 more headphones i can offer a 10 % off overall         pa /proposal  
+12 10 is less , at-least give 15                                         fq
+13 Okay, but only if you order 70                                        pf+fq
+14 Okay i will order additional headphones.                              pf
+15 fine, i will send the package after 10 % advance payment             pf+fd
+16 okay                                                                  pf
+
+
+
+
+
+
+
+A: iphone :any sentence which has some information particular to iphonex  
+
+1 Hi I am Looking for Iphone X and its headphone                         
+3 I would need 100 Iphones and 40 headphones
+6 It will cost you 30k each for iPhones and 1500 for headphones
+
+
+
+
+
+
+
+
+B: headphones   :any sentence which has some information particular to headphones   
+1 Hi I am Looking for Iphone X and its headphone
+3 I would need 100 Iphones and 40 headphones
+6 It will cost you 30k each for iPhones and 1500 for headphones
+7 Headphones are costly.
+8 Give it to me for 1000 each
+9 1200 is the last price i can give you.
+11 Of you take 30 more headphones i can offer a 10 % off overall
+13 Okay, but only if you order 70
+ 14 Okay i will order additional headphones.
+
+
+C: common :  any sentence which has a some  information which applies to both the products  (eg place, overall discount)
+
+2 Okay, How many you need
+4 I want it delivered at koromangla bangaluru
+5 Sure
+10 Okay , but at-least give me some overall discount
+11 Of you take 30 more headphones i can offer a 10 % off overall
+12 10 is less , at-least give 15
+13 Okay, but only if you order 70
+ 14 Okay i will order additional headphones.
+15 fine, i will send the package after 10 % advance payment
+16 okay
+
+
+Inferences from A: quantity of iphone: 100
+                   price of iphone 30k
+
+
+Inferences from B: quantity of headphone: 1st mention 40
+                                          2nd mention 30 more (==70)
+                                           3rd mention 70 ->Okay
+                                          from  sentences 3,11,13,14 it can be concluded that final quantity is 70
+
+                   price of headphone : 1st mention 1500
+                                        2nd mention 1000
+                                        3rd mention 1200
+                                        from  sentences 6,8,9 it can be concluded that final quantity is 70
+
+Inferences from C :place :  koromangla bengaluru
+                   discount : sentences 10-14 captured in C have enough context within them to come to the conclusion that final discount is 15
+
+
+
+
+
+
+
+
+
+
+
+
+
+task 0: identify the different products
+task 1 :label sentences:
+How:
+In a sentence, if there are particular words/phrases which are related to product A: Category A
+In a sentence, if there are particular words/phrases which are related to product B: Category B
+In a sentence, if there are particular words/phrases which are related to both product A and B : Category C
+
+
+task 2:within each subsection, list out the sentences related to each sub entity and figure out the final value of the subentity
+
+
+Here the key is that, the categories A,B,C have been defined such that, the subentities' value can be figured out just by the statements within the category.
+
+
+ statement /reaction (more general version of Q/A):
