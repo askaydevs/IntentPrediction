@@ -1,2 +1,0 @@
-# IntentPrediction
-User Intent Prediction

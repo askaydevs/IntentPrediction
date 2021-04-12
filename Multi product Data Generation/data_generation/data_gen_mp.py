@@ -63,7 +63,7 @@ params1 = {
     'product_name1': 'bedsheet',
     'product_quantity1': 200 ,
     'product_name2': 'rug',
-    'product_quantity2': 150,
+    'product_quantity2': 100,
     'delivery_location': 'Hyderabad',
     'buyer_product_price1': 700 ,
     'buyer_product_price2': 500 ,
@@ -84,7 +84,7 @@ params2 = {
     'product_quantity1': 60 ,
     'product_name2': 'marker',
     'product_quantity2': 500,
-    'delivery_location': 'Mumbai',
+    'delivery_location': 'Kolkata',
     'buyer_product_price1': 500 ,
     'buyer_product_price2': 20 ,
     'seller_name': 'Krishna stationary',
@@ -107,7 +107,7 @@ params3 = {
     'delivery_location': 'Chennai',
     'buyer_product_price1': 35 ,
     'buyer_product_price2': 25 ,
-    'seller_name': 'Raheem wholesale and retail',
+    'seller_name': 'Ram wholesale and retail',
     'seller_product_price1': 45,
     'seller_product_price2': 35,
     'seller_product_revised_price1': 40,
@@ -124,7 +124,7 @@ params4 = {
     'product_quantity1': 1000 ,
     'product_name2': 'plain book',
     'product_quantity2': 1500,
-    'delivery_location': 'Bhopal',
+    'delivery_location': 'Mumbai',
     'buyer_product_price1': 30 ,
     'buyer_product_price2': 20 ,
     'seller_name': 'Krishna stationary',
@@ -144,7 +144,7 @@ params5 = {
     'product_quantity1':  1000 ,
     'product_name2': 'plastic spoon',
     'product_quantity2': 1000,
-    'delivery_location': 'secunderabad',
+    'delivery_location': 'delhi',
     'buyer_product_price1': 5 ,
     'buyer_product_price2': 3,
     'seller_name': 'Ramesh Retail',
@@ -161,18 +161,26 @@ params5 = {
 
 
 params=[params1,params2,params3,params4,params5]
-
+is_buyer=[]
 for i in range(0, 1000):
     node = node_dict['start']
-    print ('=======START============', file=open("output.txt", "a"))
+    print ('=======START============',file=open("output1.txt", "a"))
     params_used=random.choice(params)
+    b=[]
     while node.id != 'end':
+        
         expression = steps[node.step].random_expression()
+        if node.id!= 'start':
+            if (steps[node.step].id)[0]=='b':
+                b.append(1)
+            else:
+                b.append(0)
         
         for key in params_used.keys():
             expression = expression.replace("{{" + key + "}}", str(params_used[key]))
-        print (expression, file=open("output.txt", "a"))
+        print (expression, file=open("output1.txt", "a"))
         node = node_dict[node.random_outgoing_step()]
-
-    print (steps[node.step].random_expression(), file=open("output.txt", "a"))
-    print ('=======END============', file=open("output.txt", "a"))
+        
+    print (steps[node.step].random_expression(), file=open("output1.txt", "a"))
+    print ('=======END============',file=open("output1.txt", "a"))
+    is_buyer.append(b)
